@@ -1,0 +1,20 @@
+{
+  "_note": "This is an example file showing the issue_statuses.json format. The real file is created automatically by Claude during your audit scans. Copy this to issue_statuses.json if you want to pre-seed known issues.",
+
+  "meta_pixel_broken": {
+    "status": "open",
+    "first_detected": "2026-05-04",
+    "last_seen": "2026-05-20"
+  },
+  "hero_no_cta": {
+    "status": "fixed",
+    "first_detected": "2026-05-04",
+    "last_seen": "2026-05-10",
+    "fixed_date": "2026-05-10"
+  },
+  "no_abandonment_email_sequence": {
+    "status": "open",
+    "first_detected": "2026-05-20",
+    "last_seen": "2026-05-20"
+  }
+}

@@ -1,0 +1,24 @@
+# Store-specific config (contains your store URL and credentials)
+store_config.json
+
+# Generated output
+output/
+
+# Scan data (contains your store's order/session data)
+data/issue_statuses.json
+data/analytics_health.json
+data/funnel_data.json
+data/latest_scan.json
+data/scan_history.json
+data/cron.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

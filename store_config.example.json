@@ -1,0 +1,69 @@
+{
+  "_instructions": "Copy this file to store_config.json and fill in your store details. Do not commit store_config.json — it contains sensitive store information.",
+
+  "store": {
+    "name": "Your Store Name",
+    "url": "https://www.yourstore.com",
+    "shopify_domain": "yourstore.myshopify.com",
+    "currency": "INR",
+    "country": "India",
+    "category": "jewellery",
+    "description": "One sentence: what do you sell, to whom, at what price point"
+  },
+
+  "baseline_metrics": {
+    "_note": "Fill in what you know. Leave unknown fields as null.",
+    "monthly_sessions": null,
+    "monthly_orders": null,
+    "monthly_revenue": null,
+    "overall_cvr_pct": null,
+    "mobile_cvr_pct": null,
+    "desktop_cvr_pct": null,
+    "average_order_value": null,
+    "repeat_purchase_rate_pct": null
+  },
+
+  "channels": {
+    "_note": "Approximate revenue split by channel. Should sum to 100.",
+    "direct_pct": null,
+    "whatsapp_pct": null,
+    "b2b_pct": null,
+    "paid_social_pct": null,
+    "organic_pct": null,
+    "other_pct": null
+  },
+
+  "tools": {
+    "_note": "List tools/apps connected to your store. This helps the agent know what data is available.",
+    "checkout": "shopify_native",
+    "email_marketing": null,
+    "whatsapp_marketing": null,
+    "reviews": null,
+    "heatmaps": null,
+    "loyalty_rewards": null,
+    "upsell_cross_sell": null
+  },
+
+  "known_issues": {
+    "_note": "Optional. List anything you already know is broken or underperforming. The agent will verify and add evidence.",
+    "items": []
+  },
+
+  "audit_scope": {
+    "_note": "Which audits to run. Set to false to skip. All default to true.",
+    "01_analytics": true,
+    "02_heuristic": true,
+    "03_technical": true,
+    "04_behavioural": true,
+    "05_paid_traffic": true,
+    "06_revenue_aov": true
+  },
+
+  "constraints": {
+    "_note": "Context that affects what recommendations are feasible.",
+    "dev_bandwidth": "low",
+    "monthly_ad_budget": null,
+    "a_b_testing_tool": null,
+    "no_go_areas": []
+  }
+}
