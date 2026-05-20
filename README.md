@@ -98,28 +98,28 @@ Start here: **[docs/first-scan.md](docs/first-scan.md)**
 
 ---
 
-## Real results from Adorn Silver
+## Real results from a first scan
 
-Adorn Silver (D2C silver gifting, India) ran this full audit pipeline in May 2026. Results:
+A D2C gifting brand ran this full audit pipeline. Results:
 
 **Critical bugs found:**
 - Meta Pixel: 0 purchase events firing for 6+ weeks → Audit 1
-- Shopflo payment tracking broken → Audit 3
-- Google Ads campaign with ₹6,868 spend, 0 conversions → Audit 5
+- Checkout payment tracking broken → Audit 3
+- Google Ads campaign with ₹8,000+ spend, 0 conversions → Audit 5
 
 **UX issues found:**
-- ATC button below fold on 75% of mobile devices → Audit 2 + 4
+- ATC button below fold on 70%+ of mobile devices → Audit 2 + 4
 - Hero section: 0 CTAs on a page receiving 100% of paid traffic → Audit 2
-- Checkout OTP wall causing mass abandonment → Audit 3
+- Checkout flow causing mass invisible abandonment → Audit 3
 
 **Revenue leakage found:**
-- ₹3.94L/month abandoned checkouts, zero recovery emails → Audit 6
-- Estimated ₹28L/month in Shopflo-invisible abandonments → Audit 6
+- ₹4L/month in abandoned checkouts, zero recovery emails → Audit 6
+- ₹25L+/month in checkout-invisible abandonments → Audit 6
 - No post-purchase upsell on any product → Audit 6
 
 **Quick wins (shipped without A/B testing):** 20 items
 **A/B tests queued:** 3 (limited by traffic)
-**Total estimated monthly revenue impact:** ₹3.1L–₹4.7L
+**Total estimated monthly revenue impact:** ₹3L–₹5L
 
 Full case study: [docs/case-study-adorn.md](docs/case-study-adorn.md)
 
