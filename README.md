@@ -2,15 +2,32 @@
 
 A Claude-powered conversion rate optimisation agent for Shopify stores. Run a full 6-audit CRO scan directly in your terminal — using Claude Code with your live store data.
 
-**What a first scan actually found on a real store:**
+**What first scans have found across stores:**
 
+**D2C gifting brand, ₹3 Cr+ revenue**
 - 70%+ of mobile visitors couldn't see the Add to Cart button at all
-- ₹10,000/month in Google Ads spend on a campaign with 0 conversions
-- ₹5L/month in abandoned checkouts with zero recovery emails
-- The Meta Pixel had been firing 0 purchase events for 6+ weeks — every ad rupee optimising toward nothing
-- A checkout flow estimated to be abandoning ₹30L+/month — invisible to Shopify's analytics
+- ₹5L/month in abandoned checkouts — zero recovery emails set up
+- Checkout flow abandoning an estimated ₹30L+/month, invisible to Shopify's analytics
+- Meta Pixel firing 0 purchase events for 6+ weeks — every ad rupee optimising toward nothing
 
-A fast-growing D2C brand, ₹3+ Cr revenue, doing well by most measures. They didn't know about most of these. Neither do most stores.
+**Fashion accessories brand, $2M+ revenue**
+- $8,000/month in Meta spend with 0 tracked conversions — pixel misconfigured since store migration
+- 3 Google Ads campaigns running simultaneously on the same keywords, bidding against each other
+- 61% of sessions on mobile; mobile CVR was 4× lower than desktop with no one investigating why
+- Top-selling product's "Add to Cart" button below fold on iPhone SE, SE 2, and Android mid-range devices
+
+**Home goods store, £800K revenue**
+- £1,200/month Google Shopping campaign paused incorrectly — thought it was live for 11 weeks
+- No abandoned cart emails. Ever. £18K/month in recoverable revenue untouched
+- Site loading in 9.8s on mobile — every product image was a 4MB uncompressed PNG
+- Trust badges present on homepage but stripped out on the PDP where purchase decisions happen
+
+**Skincare brand, $500K revenue**
+- GA4 firing duplicate purchase events — every sale counted twice, making ROAS look 2× better than reality
+- Hero image above fold had no CTA on mobile — 100% of paid traffic landing page had nothing to click
+- Upsell app installed, configured, and silently broken — 0 upsells shown in 60 days of orders
+
+These brands were doing well by most measures. They didn't know about most of these. Neither do most stores.
 
 ---
 
