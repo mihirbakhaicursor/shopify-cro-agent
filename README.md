@@ -5,10 +5,10 @@ A Claude-powered conversion rate optimisation agent for Shopify stores. Run a fu
 **What a first scan actually found on a real store:**
 
 - 70%+ of mobile visitors couldn't see the Add to Cart button at all
-- ₹8,000/month in Google Ads spend on a campaign with 0 conversions
-- ₹4L/month in abandoned checkouts with zero recovery emails
+- ₹10,000/month in Google Ads spend on a campaign with 0 conversions
+- ₹5L/month in abandoned checkouts with zero recovery emails
 - The Meta Pixel had been firing 0 purchase events for 6+ weeks — every ad rupee optimising toward nothing
-- A checkout flow estimated to be abandoning ₹25L+/month — invisible to Shopify's analytics
+- A checkout flow estimated to be abandoning ₹30L+/month — invisible to Shopify's analytics
 
 A fast-growing D2C brand, ₹3+ Cr revenue, doing well by most measures. They didn't know about most of these. Neither do most stores.
 
@@ -105,7 +105,7 @@ A D2C gifting brand ran this full audit pipeline. Results:
 **Critical bugs found:**
 - Meta Pixel: 0 purchase events firing for 6+ weeks → Audit 1
 - Checkout payment tracking broken → Audit 3
-- Google Ads campaign with ₹8,000+ spend, 0 conversions → Audit 5
+- Google Ads campaign with ₹10,000+ spend, 0 conversions → Audit 5
 
 **UX issues found:**
 - ATC button below fold on 70%+ of mobile devices → Audit 2 + 4
@@ -113,8 +113,8 @@ A D2C gifting brand ran this full audit pipeline. Results:
 - Checkout flow causing mass invisible abandonment → Audit 3
 
 **Revenue leakage found:**
-- ₹4L/month in abandoned checkouts, zero recovery emails → Audit 6
-- ₹25L+/month in checkout-invisible abandonments → Audit 6
+- ₹5L/month in abandoned checkouts, zero recovery emails → Audit 6
+- ₹30L+/month in checkout-invisible abandonments → Audit 6
 - No post-purchase upsell on any product → Audit 6
 
 **Quick wins (shipped without A/B testing):** 20 items
