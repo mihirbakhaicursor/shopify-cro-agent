@@ -4,13 +4,13 @@ A Claude-powered conversion rate optimisation agent for Shopify stores. Run a fu
 
 **What a first scan actually found on a real store:**
 
-- 75% of mobile visitors couldn't see the Add to Cart button at all
-- ₹6,868/month in Google Ads spend on a campaign with 0 conversions
-- ₹3.94L/month in abandoned checkouts with zero recovery emails
+- 70%+ of mobile visitors couldn't see the Add to Cart button at all
+- ₹8,000/month in Google Ads spend on a campaign with 0 conversions
+- ₹4L/month in abandoned checkouts with zero recovery emails
 - The Meta Pixel had been firing 0 purchase events for 6+ weeks — every ad rupee optimising toward nothing
-- A checkout OTP wall estimated to be abandoning ₹28L/month — invisible to Shopify's analytics
+- A checkout flow estimated to be abandoning ₹25L+/month — invisible to Shopify's analytics
 
-That store was [Adorn Silver](https://www.adornsilver.co) — ₹3.37 Cr revenue, 23× growth in 2 years. They didn't know about most of these. Neither do most stores.
+A fast-growing D2C brand, ₹3+ Cr revenue, doing well by most measures. They didn't know about most of these. Neither do most stores.
 
 ---
 
