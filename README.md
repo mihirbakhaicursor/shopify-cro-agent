@@ -84,19 +84,14 @@ The agent gracefully skips audits for any MCP that isn't connected and tells you
 git clone https://github.com/mihirbakhaicursor/shopify-cro-agent
 cd shopify-cro-agent
 
-# 2. Copy and fill in your store config
-cp store_config.example.json store_config.json
-# Edit store_config.json with your store URL, currency, and goals
-
-# 3. Open in Claude Code
+# 2. Open in Claude Code
 claude .
 
-# 4. Tell Claude to start the scan
+# 3. Tell Claude to start the scan
 "Run a first CRO scan on my store"
-
-# 5. Follow the guided audit sequence
-# Each audit takes 15–30 minutes. Total: ~2–3 hours for all 6 + scoring.
 ```
+
+Claude will ask you 5 quick questions about your store (URL, currency, AOV, rough session volume), write the config itself, check which MCPs are connected, and start the first audit.
 
 **Time to first findings:** ~20 minutes (Audit 1 + 2 alone surface most critical issues).
 

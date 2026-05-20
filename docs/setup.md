@@ -189,24 +189,25 @@ The agent will tell you at the start which audits can run and what connecting th
 
 ---
 
-## Filling in store_config.json
+## store_config.json — you don't fill this in manually
+
+When you run `"Run a first CRO scan on my store"`, Claude will ask you 5 questions and write the config file itself:
+
+1. Store URL
+2. Shopify domain (yourstore.myshopify.com)
+3. Currency
+4. What you sell + average order value
+5. Rough monthly sessions and orders (ballpark is fine)
+
+That's it. Everything else — exact CVR, session volumes, revenue by channel — gets pulled live from your MCPs during the audits and filled in as the scan runs.
+
+If you want to pre-fill it manually (e.g. you're setting up for a client), copy the example:
 
 ```bash
 cp store_config.example.json store_config.json
 ```
 
-Fill in what you know. The agent pulls most data live from MCPs, but these fields help it calibrate estimates:
-
-| Field | Why it matters |
-|-------|---------------|
-| `store.url` | Used for technical audit page speed checks |
-| `store.currency` | All revenue estimates use this |
-| `store.category` | CVR benchmarks vary by category (fashion ≠ home goods ≠ gifting) |
-| `baseline_metrics.monthly_sessions` | Required for A/B test sample size calculations |
-| `baseline_metrics.overall_cvr_pct` | Required for minimum detectable effect (MDE) calculations |
-| `tools.checkout` | Checkout-specific findings differ between Shopify native, Shopflo, Carthook, etc. |
-
-You don't need to fill in everything — leave unknowns blank and the agent will calculate them from your live data.
+The file is gitignored — it never gets committed.
 
 ---
 
