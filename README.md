@@ -64,7 +64,7 @@ The agent gracefully skips audits for any MCP that isn't connected and tells you
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/shopify-cro-agent
+git clone https://github.com/mihirbakhaicursor/shopify-cro-agent
 cd shopify-cro-agent
 
 # 2. Copy and fill in your store config
