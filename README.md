@@ -38,7 +38,8 @@ It runs **6 sequential audits** against your Shopify store, then scores every fi
 | Audit | What it covers |
 |-------|---------------|
 | 01 — Analytics Health | GA4/pixel setup, tracking gaps, attribution blind spots |
-| 02 — Heuristic | LIFT model review of homepage, PLP, PDP, checkout |
+| 00 — Page Priority Map | Ranks every page by sessions × revenue × paid traffic — sets review order for all audits |
+| 02 — Heuristic | LIFT model review of your highest-value pages first, then the rest |
 | 03 — Technical | PageSpeed, Core Web Vitals, script bloat, checkout JS errors |
 | 04 — Behavioural | Clarity heatmaps, scroll depth, rage clicks, session replays |
 | 05 — Paid Traffic | Ad spend efficiency, landing page mismatch, ROAS by campaign |
@@ -169,6 +170,7 @@ shopify-cro-agent/
 ├── cro_agent.py                 ← Issue tracker + dashboard generator
 ├── audits/
 │   ├── 01_analytics.md          ← Audit 1 spec
+│   ├── 00_page_priority.md      ← Page Priority Map (runs between 01 and 02)
 │   ├── 02_heuristic.md          ← Audit 2 spec
 │   ├── 03_technical.md          ← Audit 3 spec
 │   ├── 04_behavioural.md        ← Audit 4 spec

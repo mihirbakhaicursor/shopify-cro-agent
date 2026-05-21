@@ -33,7 +33,23 @@ Map each page issue to the level it affects:
 
 ---
 
+## Page review order
+
+**Do not review pages in a fixed sequence.** Use the Page Priority Stack from `audits/00_page_priority.md`.
+
+- **Tier 1 pages first** — review all of them in full
+- **Tier 2 pages** — review if time allows, or if the user flags them
+- **Tier 3 pages** — skip unless specifically requested
+
+If the Page Priority Map hasn't been run yet, run it now before proceeding.
+
+Every finding in this audit must note which page tier it's on. A broken CTA on a Tier 1 page (paid traffic, 4,000 sessions) is P0. The same issue on a Tier 3 page is P2.
+
+---
+
 ## Page-by-page review
+
+The checklist below covers what to look for on each page type. Apply it to each page in tier order, not in the order listed here.
 
 ### Homepage
 

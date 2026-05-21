@@ -51,9 +51,10 @@ Each audit is defined in `/audits/`. Run them in order. Each audit spec tells yo
 - What questions to answer
 - What the output format should be
 
-| Audit | File | Requires |
-|-------|------|----------|
+| Step | File | Requires |
+|------|------|----------|
 | 01 — Analytics Health | `audits/01_analytics.md` | Shopify MCP |
+| 00 — Page Priority Map | `audits/00_page_priority.md` | Shopify MCP (+ Windsor/Ads MCP if connected) |
 | 02 — Heuristic | `audits/02_heuristic.md` | Shopify MCP |
 | 03 — Technical | `audits/03_technical.md` | Shopify MCP |
 | 04 — Behavioural | `audits/04_behavioural.md` | Clarity MCP |
@@ -61,6 +62,8 @@ Each audit is defined in `/audits/`. Run them in order. Each audit spec tells yo
 | 06 — Revenue & AOV | `audits/06_revenue_aov.md` | Shopify MCP |
 
 After all audits: run **Phase 5 scoring** (`audits/07_phase5_scoring.md`).
+
+**Why Page Priority runs between 01 and 02:** Audit 1 establishes tracking health. The Page Priority Map uses that session/revenue data to rank pages. Audit 2 (heuristic) then reviews pages in priority order — not a fixed generic sequence. A finding on a Tier 1 page scores higher in PXL than the same finding on a Tier 3 page.
 
 ---
 
